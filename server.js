@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173','https://g2026-backend.onrender.com/api/dashboard/summary','http://localhost:5001/api/dashboard/summary','http://localhost:3000', 'http://127.0.0.1:5173', 'https://g2026-frontend.onrender.com', 'https://jazzy-dolphin-0bcd29.netlify.app'],
+  origin: ['https://g2026-frontend.onrender.com', 'https://jazzy-dolphin-0bcd29.netlify.app'],
   credentials: true
 }));
 app.use(express.json());
