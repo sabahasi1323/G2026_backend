@@ -16,6 +16,7 @@ const allowedOrigins = [
   'http://127.0.0.1:5001',
   'https://celebrated-kashata-1a90d0.netlify.app',
 'https://g2026-frontend.onrender.com', 
+  'https://g2026-backend.onrender.com/api/dashboard/summary',
   'https://jazzy-dolphin-0bcd29.netlify.app'
   ];
 
