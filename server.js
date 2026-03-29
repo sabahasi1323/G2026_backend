@@ -7,6 +7,19 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 // Middleware
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'http://localhost:5000',
+  'http://127.0.0.1:5000',
+  'http://localhost:5001',
+  'http://127.0.0.1:5001',
+  'https://celebrated-kashata-1a90d0.netlify.app',
+'https://g2026-frontend.onrender.com', 
+  'https://jazzy-dolphin-0bcd29.netlify.app'
+  ];
+
+// Middleware
 app.use(cors({
   origin: ['https://g2026-frontend.onrender.com', 'https://jazzy-dolphin-0bcd29.netlify.app'],
   credentials: true
